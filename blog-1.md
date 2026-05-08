@@ -1,6 +1,4 @@
-# Why is "any" type labeled as a "type safety hole", and why is 'unknown' the safer choice for handling unpredictable data? Explain the concept of type narrowing.
-
-## Introduction
+# TypeScript "any" type is a "type safety hole", while 'unknown' the safer choice for handling unpredictable data
 
 TypeScript is used for implementing type safety in Javascript programming. But it is very common that a certain type is not know at compile time. This is where the `any` and `unknown` is used. Even they practically applied to same scenarios but they have their own pros and cons. Developers should choose which one to use in the case that a certain is unknown.
 
