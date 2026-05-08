@@ -2,6 +2,8 @@
 
 TypeScript is used for implementing type safety in Javascript programming. But it is very common that a certain type is not know at compile time. This is where the `any` and `unknown` is used. Even they practically applied to same scenarios but they have their own pros and cons. Developers should choose which one to use in the case that a certain is unknown.
 
+**Disclaimer: Some of the examples were taken from online sites**
+
 ## The "any" Type: A Type Safety Hole
 
 The `any` type is a way to disable type checking. When `any` type is assined, TypeScript ignores type checking and anything can be assigned throughout the code for the respective variable.

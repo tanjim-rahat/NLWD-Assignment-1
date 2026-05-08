@@ -2,6 +2,8 @@
 
 Developers often work with complex object types or interface that have many properties. But not every function or property is always needed. Manually creating multiple interfaces for subsets leads to code duplication and harder maintenance. This is where TypeScript's `Pick` and `Omit` utility types comes in. A very useful tool to keep the codebase DRY.
 
+**Disclaimer: Some of the examples were taken from online sites**
+
 ## Some Examples of Code Duplication Without Utility Types
 
 Let's consider a real-world scenario: managing user data in an application.
